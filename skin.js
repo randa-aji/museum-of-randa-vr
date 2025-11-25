@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.8/20986
 // Filename: RA_v01.ggsk
-// Generated 2025-11-23T21:49:08
+// Generated 2025-11-24T21:02:45
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -117,6 +117,46 @@ function pano2vrSkin(player,base) {
 	this.addSkin=function() {
 		var hs='';
 		this.ggCurrentTime=new Date().getTime();
+		el=me._svg_1=document.createElement('div');
+		els=me._svg_1__img=document.createElement('img');
+		els.className='ggskin ggskin_svg';
+		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPHN2ZyBpZD0iYiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjc3LjE3IDI3Ny4xNyI+CiA8ZGVmcz4KICA8c3R5bGU+LmR7ZmlsbDojZmZmO308L3N0eWxlPgogPC9kZWZzPgogPGcgaWQ9ImMiPgogIDxyZWN0IGhlaWdodD0iMTgyLjU0IiB5PSI0OS4zNiIgd2lkdGg9IjIwMi4xNiIgeD0iMzYuMzciLz4KICA8cGF0aCBjbGFzcz0iZCIgZD0iTTIwNy44OCwwSDY5LjI5QzMxLjAyLDAsMCwzMS4wMiwwLDY5LjI5djEzOC41OWMwLDM4LjI3LDMxLjAyLDY5LjI5LDY5LjI5LDY5LjI5aD'+
+			'EzOC41OWMzOC4yNywwLDY5LjI5LTMxLjAyLDY5LjI5LTY5LjI5VjY5LjI5QzI3Ny4xNywzMS4wMiwyNDYuMTUsMCwyMDcuODgsMFpNMjE0LjAzLDE1My40Yy0zLjM3LDMuNC04Ljg1LDMuNDItMTIuMjUuMDUtLjAyLS4wMi0uMDMtLjAzLS4wNS0uMDVsLTIuNTEtMi41MXYzOS42N2MwLDkuNTctNy43NiwxNy4zMi0xNy4zMiwxNy4zMmgtMjUuOTl2LTQzLjMxaC0zNC42NXY0My4zMWgtMjUuOTljLTkuNTcsMC0xNy4zMi03Ljc2LTE3LjMyLTE3LjMydi0zOS42N2wtMi41MSwyLjUxYy0zLjQsMy40LTguOSwzLjQtMTIuMywwcy0zLjQtOC45LDAtMTIuM2w2OS4yOS02OS4yOWMzLjM3LTMuNCw4Ljg1'+
+			'LTMuNDIsMTIuMjUtLjA1LjAyLjAyLjAzLjAzLjA1LjA1bDY5LjI5LDY5LjI5YzMuNCwzLjM3LDMuNDIsOC44NS4wNSwxMi4yNS0uMDIuMDItLjAzLjAzLS4wNS4wNVoiLz4KIDwvZz4KPC9zdmc+Cg==';
+		me._svg_1__img.setAttribute('src',hs);
+		hs ='';
+		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
+		els.setAttribute('style', hs);
+		els['ondragstart']=function() { return false; };
+		el.appendChild(els);
+		el.ggSubElement = els;
+		el.ggId="Svg 1";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_svg ";
+		el.ggType='svg';
+		hs ='';
+		hs+='height : 56px;';
+		hs+='left : 15px;';
+		hs+='position : absolute;';
+		hs+='top : 13px;';
+		hs+='visibility : inherit;';
+		hs+='width : 54px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._svg_1.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._svg_1.onclick=function (e) {
+			player.openNext("{node2}","");
+		}
+		me._svg_1.ggUpdatePosition=function (useTransition) {
+		}
+		me.divSkin.appendChild(me._svg_1);
 	};
 	player.addListener('changenode', function() {
 		me.ggUserdata=player.userdata;
