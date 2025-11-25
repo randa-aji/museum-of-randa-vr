@@ -1,226 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="20986" hassounds="0" start="node8" appversion="7.1.8">
-  <panorama hideabout="1" id="node8">
-    <input levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" leveltilesize="1024" levelingpitch="0" width="1920" overlap="1" levelbias="0.400" height="1920">
-      <level height="1920" preload="0" predecode="0" width="1920"/>
-      <level height="960" preload="1" predecode="1" width="960"/>
+<tour hassounds="0" start="node8" appversion="7.1.8" apprev="20986">
+  <panorama id="node8" hideabout="1">
+    <input levelingroll="0" leveltilesize="1024" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" width="1920" levelbias="0.400" height="1920" overlap="1">
+      <level predecode="0" width="1920" height="1920" preload="0"/>
+      <level predecode="1" width="960" height="960" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start projection="4" tilt="-2.07" fov="79.87" pan="-0.03"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min tilt="-39.24" pan="-62.14" fovpixel="2"/>
-      <max tilt="45.52" fov="99.12" scaletofit="1" fovfisheye="360" pan="62.17" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start pan="-0.03" projection="4" fov="79.87" tilt="-2.07"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="-62.14" fovpixel="2" tilt="-39.24"/>
+      <max fovstereographic="330" pan="62.17" fovfisheye="360" scaletofit="1" fov="99.12" tilt="45.52"/>
     </view>
-    <userdata author="" datetime="" copyright="" heading="0" nodeid="node8" info="" title="" longitude="" tags="_exports" customnodeid="" comment="" latitude="" source="" description=""/>
-    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
-      <label bordercolor="0x000000" backgroundalpha="1" textalpha="1" backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" background="1" border="1" enabled="1" height="20" borderalpha="1" wordwrap="1"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <polyhotspot description="" target="" url="{node2}" title="" id="Poly01">
+    <userdata heading="0" nodeid="node8" description="" tags="_exports" info="" copyright="" author="" latitude="" longitude="" customnodeid="" title="" source="" datetime="" comment=""/>
+    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
+      <label background="1" borderalpha="1" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" border="1" width="180" textcolor="0x000000" enabled="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20"/>
+      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <polyhotspot id="Poly01" url="{node2}" title="" target="" description="">
         <polystring>-337.2/3.87|-22.88/3.68|-23.22/-8.01|-336.51/-7.57</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomin="0" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" delay="none" softedge="0" blendcolor="0x000000" enabled="1" zoomout="0" zoomfov="40"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextprojections="0" invertcontrol="1" simulatemass="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0" contextvr="1" lockedkeyboard="0" rubberband="0" zoomcentercursor="1" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" hideabout="1" sensitivity="8" lockedwheel="0"/>
+    <transition softedge="0" zoomafterinfov="140" type="crossdissolve" zoomfov="40" enabled="1" blendcolor="0x000000" zoomoutpause="1" zoomin="0" delay="none" zoomout="0" zoomspeed="2" zoomafteroutfov="40" blendtime="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" rubberband="0" sensitivity="8" contextvr="1" lockedkeyboard="0" simulatemass="1" invertwheel="0" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedwheel="0" zoomcentercursor="1" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
   </panorama>
-  <panorama hideabout="1" id="node2">
-    <input levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" leveltilesize="1024" levelingpitch="0" width="720" overlap="1" levelbias="0.400" height="720">
-      <level height="720" preload="1" predecode="1" width="720"/>
+  <panorama id="node2" hideabout="1">
+    <input levelingroll="0" leveltilesize="1024" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" width="960" levelbias="0.400" height="960" overlap="1">
+      <level predecode="1" width="960" height="960" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start projection="4" tilt="-1.77" fov="108.43" pan="1.14"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min tilt="-60.4952" pan="-180" fovpixel="2"/>
-      <max tilt="60.4952" fov="140" fovfisheye="360" pan="180" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start pan="1.14" projection="4" fov="108.43" tilt="-1.77"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="-180" fovpixel="2" tilt="-60.4952"/>
+      <max fovstereographic="330" pan="180" fovfisheye="360" fov="140" tilt="60.4952"/>
     </view>
-    <userdata author="" datetime="" copyright="" heading="0" nodeid="node2" info="" title="Reception" longitude="" tags="Rooms" customnodeid="" comment="" latitude="" altitude="-3048.00" source="" description=""/>
-    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
-      <label bordercolor="0x000000" backgroundalpha="1" textalpha="1" backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" background="1" border="1" enabled="1" height="20" borderalpha="1" wordwrap="1"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <polyhotspot description="" target="" url="{node3}" title="" id="Poly01">
+    <userdata heading="0" nodeid="node2" description="" tags="Rooms" info="" copyright="" author="" latitude="" longitude="" customnodeid="" title="Reception" altitude="-3048.00" source="" datetime="" comment=""/>
+    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
+      <label background="1" borderalpha="1" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" border="1" width="180" textcolor="0x000000" enabled="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20"/>
+      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <polyhotspot id="Poly01" url="{node3}" title="" target="" description="">
         <polystring>-302.47/14.06|-316.55/11.59|-316.52/-27.75|-302.63/-32.06</polystring>
+      </polyhotspot>
+      <polyhotspot id="Poly02" url="{node8}" title="" target="" description="">
+        <polystring>-143.77/30.58|-231.58/26.44|-230.59/-40.77|-142.52/-44.64</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <image rotz="-8.140" tilt="-8.980" stretch="1.000" fov="5.300" clickmode="0" rotx="-10.520" popbackmode="0" pan="50.780" handcursor="1" roty="-45.270" id="Element01" width="761" popoutscaling="100" hidepinned="0" height="762">
+      <image handcursor="1" pan="50.780" id="Element01" stretch="1.000" rotz="-8.140" popbackmode="0" hidepinned="0" rotx="-10.520" width="761" clickmode="0" roty="-45.270" fov="5.300" tilt="-8.980" popoutscaling="100" height="762">
         <source url="media/Asset 6.png"/>
       </image>
+      <webelement pan="-59.743" id="Element02" width="1280" roty="28.975" popoutscaling="100" handcursor="1" popbackmode="0" stretch="1.062" rotz="-3.490" hidepinned="0" rotx="7.491" clickmode="4" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/69252a2c9976b30922b4d68e&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="40.742" permeable="0" tilt="6.667" height="720"/>
     </media>
-    <transition type="crossdissolve" zoomin="0" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" delay="none" softedge="0" blendcolor="0x000000" enabled="1" zoomout="0" zoomfov="40"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextprojections="0" invertcontrol="1" simulatemass="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0" contextvr="1" lockedkeyboard="0" rubberband="0" zoomcentercursor="1" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" hideabout="1" sensitivity="8" lockedwheel="0"/>
+    <transition softedge="0" zoomafterinfov="140" type="crossdissolve" zoomfov="40" enabled="1" blendcolor="0x000000" zoomoutpause="1" zoomin="0" delay="none" zoomout="0" zoomspeed="2" zoomafteroutfov="40" blendtime="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" rubberband="0" sensitivity="8" contextvr="1" lockedkeyboard="0" simulatemass="1" invertwheel="0" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedwheel="0" zoomcentercursor="1" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
   </panorama>
-  <panorama hideabout="1" id="node3">
-    <input levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" leveltilesize="1024" levelingpitch="0" width="960" overlap="1" levelbias="0.400" height="960">
-      <level height="960" preload="1" predecode="1" width="960"/>
+  <panorama id="node3" hideabout="1">
+    <input levelingroll="0" leveltilesize="1024" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" width="960" levelbias="0.400" height="960" overlap="1">
+      <level predecode="1" width="960" height="960" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start projection="4" tilt="-7.23" fov="113.65" pan="87.3"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min tilt="-60.4952" pan="-180" fovpixel="2"/>
-      <max tilt="60.4952" fov="140" fovfisheye="360" pan="180" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start pan="87.3" projection="4" fov="113.65" tilt="-7.23"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="-180" fovpixel="2" tilt="-60.4952"/>
+      <max fovstereographic="330" pan="180" fovfisheye="360" fov="140" tilt="60.4952"/>
     </view>
-    <userdata author="" datetime="" copyright="" heading="0" nodeid="node3" info="" title="Gallery 1" longitude="" tags="Rooms" customnodeid="" comment="" latitude="" altitude="-3048.00" source="" description=""/>
-    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
-      <label bordercolor="0x000000" backgroundalpha="1" textalpha="1" backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" background="1" border="1" enabled="1" height="20" borderalpha="1" wordwrap="1"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <polyhotspot description="" target="" url="{node4}" title="" id="Poly01">
+    <userdata heading="0" nodeid="node3" description="" tags="Rooms" info="" copyright="" author="" latitude="" longitude="" customnodeid="" title="Gallery 1" altitude="-3048.00" source="" datetime="" comment=""/>
+    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
+      <label background="1" borderalpha="1" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" border="1" width="180" textcolor="0x000000" enabled="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20"/>
+      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <polyhotspot id="Poly01" url="{node4}" title="" target="" description="">
         <polystring>-143.34/22.74|-172.34/18.55|-172.55/-36.4|-143.14/-41.94</polystring>
       </polyhotspot>
-      <polyhotspot description="" target="" url="{node2}" title="" id="Poly02">
+      <polyhotspot id="Poly02" url="{node2}" title="" target="" description="">
         <polystring>-196.81/16.95|-222.57/18.48|-222.68/-38.12|-196.97/-36.3</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <webelement rotz="0.104" tilt="2.341" fov="44.087" handcursor="1" permeable="0" rotx="2.310" width="1280" popoutscaling="100" hidepinned="0" height="720" stretch="1.066" clickmode="4" popbackmode="0" pan="42.219" roty="-7.369" id="Element01" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924e5c6f021a8539c7ed96a&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;"/>
-      <webelement rotz="-0.167" tilt="1.709" fov="36.882" handcursor="0" permeable="0" rotx="0.687" width="1280" popoutscaling="100" hidepinned="0" height="720" stretch="1.073" clickmode="4" popbackmode="0" pan="-32.346" roty="8.203" id="Element04" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924e5c2aa7c9fb974b23c94&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;"/>
-      <webelement rotz="-1.350" tilt="2.170" fov="46.190" handcursor="0" permeable="0" rotx="2.490" width="1280" popoutscaling="100" hidepinned="0" height="720" stretch="1.060" clickmode="4" popbackmode="0" pan="-97.000" roty="33.300" id="Element05" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924e5bff021a8539c7ed0ed&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;"/>
-      <image rotz="2.490" tilt="-12.356" stretch="0.823" fov="7.266" clickmode="0" rotx="-2.176" popbackmode="0" pan="150.963" handcursor="0" roty="27.290" id="Element02" width="761" popoutscaling="100" hidepinned="0" height="762">
+      <webelement pan="42.169" id="Element01" width="1280" roty="-7.369" popoutscaling="100" handcursor="1" popbackmode="0" stretch="1.066" rotz="0.104" hidepinned="0" rotx="2.310" clickmode="4" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924e5c6f021a8539c7ed96a&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="44.087" permeable="0" tilt="2.341" height="720"/>
+      <webelement pan="-32.350" id="Element04" width="1280" roty="8.200" popoutscaling="100" handcursor="1" popbackmode="0" stretch="1.073" rotz="-0.170" hidepinned="0" rotx="0.690" clickmode="4" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924e5c2aa7c9fb974b23c94&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="36.880" permeable="0" tilt="1.710" height="720"/>
+      <webelement pan="-97.000" id="Element05" width="1280" roty="33.300" popoutscaling="100" handcursor="1" popbackmode="0" stretch="1.060" rotz="-1.350" hidepinned="0" rotx="2.490" clickmode="4" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924e5bff021a8539c7ed0ed&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="46.190" permeable="0" tilt="2.170" height="720"/>
+      <image handcursor="0" pan="150.963" id="Element02" stretch="0.823" rotz="2.490" popbackmode="0" hidepinned="0" rotx="-2.176" width="761" clickmode="0" roty="27.290" fov="7.266" tilt="-12.356" popoutscaling="100" height="762">
         <source url="media/Asset 6.png"/>
       </image>
-      <image rotz="-6.892" tilt="-12.013" stretch="0.736" fov="8.821" clickmode="0" rotx="-8.652" popbackmode="0" pan="-156.394" handcursor="0" roty="-39.701" id="Element03" width="761" popoutscaling="100" hidepinned="0" height="762">
+      <image handcursor="0" pan="-156.394" id="Element03" stretch="0.736" rotz="-6.892" popbackmode="0" hidepinned="0" rotx="-8.652" width="761" clickmode="0" roty="-39.701" fov="8.821" tilt="-12.013" popoutscaling="100" height="762">
         <source url="media/Asset 6.png"/>
       </image>
     </media>
-    <transition type="crossdissolve" zoomin="0" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" delay="none" softedge="0" blendcolor="0x000000" enabled="1" zoomout="0" zoomfov="40"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextprojections="0" invertcontrol="1" simulatemass="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0" contextvr="1" lockedkeyboard="0" rubberband="0" zoomcentercursor="1" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" hideabout="1" sensitivity="8" lockedwheel="0"/>
+    <transition softedge="0" zoomafterinfov="140" type="crossdissolve" zoomfov="40" enabled="1" blendcolor="0x000000" zoomoutpause="1" zoomin="0" delay="none" zoomout="0" zoomspeed="2" zoomafteroutfov="40" blendtime="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" rubberband="0" sensitivity="8" contextvr="1" lockedkeyboard="0" simulatemass="1" invertwheel="0" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedwheel="0" zoomcentercursor="1" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
   </panorama>
-  <panorama hideabout="1" id="node4">
-    <input levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" leveltilesize="1024" levelingpitch="0" width="960" overlap="1" levelbias="0.400" height="960">
-      <level height="960" preload="1" predecode="1" width="960"/>
+  <panorama id="node4" hideabout="1">
+    <input levelingroll="0" leveltilesize="1024" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" width="960" levelbias="0.400" height="960" overlap="1">
+      <level predecode="1" width="960" height="960" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start projection="4" tilt="-11.4" fov="108.43" pan="0.49"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" scaletofit="1" fovfisheye="360" pan="360" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start pan="0.49" projection="4" fov="108.43" tilt="-11.4"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" fov="140" tilt="90"/>
     </view>
-    <userdata author="" datetime="" copyright="" heading="0" nodeid="node4" info="" title="Gallery 2A" longitude="" tags="Rooms" customnodeid="" comment="" latitude="" altitude="-3048.00" source="" description=""/>
-    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
-      <label bordercolor="0x000000" backgroundalpha="1" textalpha="1" backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" background="1" border="1" enabled="1" height="20" borderalpha="1" wordwrap="1"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <polyhotspot description="" target="" url="{node3}" title="" id="Poly01">
+    <userdata heading="0" nodeid="node4" description="" tags="Rooms" info="" copyright="" author="" latitude="" longitude="" customnodeid="" title="Gallery 2A" altitude="-3048.00" source="" datetime="" comment=""/>
+    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
+      <label background="1" borderalpha="1" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" border="1" width="180" textcolor="0x000000" enabled="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20"/>
+      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <polyhotspot id="Poly01" url="{node3}" title="" target="" description="">
         <polystring>-289.22/15.36|-313.03/15.54|-313.28/-38.17|-289.15/-38.05</polystring>
       </polyhotspot>
-      <hotspot customimage="media/Asset 6.png" tilt="-31.29" use3D="1" skinid="ht_node" target="" fov="4" distance3D="1202.72" pan="-121.51" title="" id="Point01" url="{node5}" customimagewidth="84" customimageheight="85" description=""/>
+      <hotspot pan="-121.51" id="Point01" target="" skinid="ht_node" description="" url="{node5}" title="" tilt="-31.29" customimage="media/Asset 6.png" customimagewidth="84" use3D="1" fov="4" distance3D="1202.72" customimageheight="85"/>
     </hotspots>
     <media>
-      <image rotz="0.567" tilt="-13.561" stretch="0.989" fov="6.703" clickmode="0" rotx="-3.255" popbackmode="0" pan="59.899" handcursor="0" roty="22.959" id="Element01" width="761" popoutscaling="100" hidepinned="0" height="762">
+      <image handcursor="0" pan="59.899" id="Element01" stretch="0.989" rotz="0.567" popbackmode="0" hidepinned="0" rotx="-3.255" width="761" clickmode="0" roty="22.959" fov="6.703" tilt="-13.561" popoutscaling="100" height="762">
         <source url="media/Asset 6.png"/>
       </image>
-      <webelement rotz="-0.770" tilt="-18.200" fov="13.840" handcursor="1" permeable="0" rotx="3.120" width="1280" popoutscaling="100" hidepinned="0" height="720" stretch="2.000" clickmode="4" popbackmode="0" pan="-1.880" roty="-3.120" id="Element02" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924d5dbd80200da049132f7&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;"/>
+      <webelement pan="-1.880" id="Element02" width="1280" roty="-3.120" popoutscaling="100" handcursor="1" popbackmode="0" stretch="2.000" rotz="-0.770" hidepinned="0" rotx="3.120" clickmode="4" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924d5dbd80200da049132f7&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="13.840" permeable="0" tilt="-18.200" height="720"/>
+      <webelement pan="-109.829" id="Element03" width="1280" roty="11.867" popoutscaling="100" handcursor="0" popbackmode="0" stretch="1.082" rotz="-0.073" hidepinned="0" rotx="1.592" clickmode="0" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924d5d8a327beb518c85900&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="18.412" permeable="0" tilt="0.546" height="720"/>
+      <webelement pan="-76.944" id="Element04" width="1280" roty="-44.918" popoutscaling="100" handcursor="0" popbackmode="0" stretch="1.090" rotz="7.938" hidepinned="0" rotx="10.952" clickmode="0" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924d5d6d80200da04912d4d&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="8.824" permeable="0" tilt="8.311" height="720"/>
+      <webelement pan="51.832" id="Element05" width="1280" roty="-11.268" popoutscaling="100" handcursor="0" popbackmode="0" stretch="1.958" rotz="-0.145" hidepinned="0" rotx="-1.027" clickmode="0" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924e5c6f021a8539c7ed96a&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="8.033" permeable="0" tilt="0.722" height="720"/>
     </media>
-    <transition type="crossdissolve" zoomin="0" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" delay="none" softedge="0" blendcolor="0x000000" enabled="1" zoomout="0" zoomfov="40"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextprojections="0" invertcontrol="1" simulatemass="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0" contextvr="1" lockedkeyboard="0" rubberband="0" zoomcentercursor="1" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" hideabout="1" sensitivity="8" lockedwheel="0"/>
+    <transition softedge="0" zoomafterinfov="140" type="crossdissolve" zoomfov="40" enabled="1" blendcolor="0x000000" zoomoutpause="1" zoomin="0" delay="none" zoomout="0" zoomspeed="2" zoomafteroutfov="40" blendtime="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" rubberband="0" sensitivity="8" contextvr="1" lockedkeyboard="0" simulatemass="1" invertwheel="0" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedwheel="0" zoomcentercursor="1" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
   </panorama>
-  <panorama hideabout="1" id="node5">
-    <input levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" leveltilesize="1024" levelingpitch="0" width="960" overlap="1" levelbias="0.400" height="960">
-      <level height="960" preload="1" predecode="1" width="960"/>
+  <panorama id="node5" hideabout="1">
+    <input levelingroll="0" leveltilesize="1024" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" width="960" levelbias="0.400" height="960" overlap="1">
+      <level predecode="1" width="960" height="960" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start projection="4" tilt="-4.03" fov="108.43" pan="19.04"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min tilt="-60.4952" pan="-180" fovpixel="2"/>
-      <max tilt="60.4952" fov="140" fovfisheye="360" pan="180" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start pan="19.04" projection="4" fov="108.43" tilt="-4.03"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="-180" fovpixel="2" tilt="-60.4952"/>
+      <max fovstereographic="330" pan="180" fovfisheye="360" fov="140" tilt="60.4952"/>
     </view>
-    <userdata author="" datetime="" copyright="" heading="0" nodeid="node5" info="" title="Gallery 2B" longitude="" tags="Rooms" customnodeid="" comment="" latitude="" altitude="-3048.00" source="" description=""/>
-    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
-      <label bordercolor="0x000000" backgroundalpha="1" textalpha="1" backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" background="1" border="1" enabled="1" height="20" borderalpha="1" wordwrap="1"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <hotspot customimage="media/Asset 6.png" tilt="-32.2" use3D="1" skinid="ht_node" target="" fov="4.6699999999999999" distance3D="9331.47" pan="-258.56" title="" id="Point01" url="{node4}" customimagewidth="761" customimageheight="762" description=""/>
-      <polyhotspot description="" target="" url="{node6}" title="" id="Poly01">
+    <userdata heading="0" nodeid="node5" description="" tags="Rooms" info="" copyright="" author="" latitude="" longitude="" customnodeid="" title="Gallery 2B" altitude="-3048.00" source="" datetime="" comment=""/>
+    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
+      <label background="1" borderalpha="1" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" border="1" width="180" textcolor="0x000000" enabled="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20"/>
+      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-258.56" id="Point01" target="" skinid="ht_node" description="" url="{node4}" title="" tilt="-32.2" customimage="media/Asset 6.png" customimagewidth="761" use3D="1" fov="4.6699999999999999" distance3D="9331.47" customimageheight="762"/>
+      <polyhotspot id="Poly01" url="{node6}" title="" target="" description="">
         <polystring>-94.64/24.8|-108.96/31.77|-109.07/-36.95|-94.84/-29.18</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <image rotz="-0.454" tilt="-2.184" stretch="1.180" fov="4.661" clickmode="0" rotx="-36.268" popbackmode="0" pan="-98.213" handcursor="0" roty="1.678" id="Element01" width="762" popoutscaling="100" hidepinned="0" height="761">
+      <image handcursor="0" pan="-98.213" id="Element01" stretch="1.180" rotz="-0.454" popbackmode="0" hidepinned="0" rotx="-36.268" width="762" clickmode="0" roty="1.678" fov="4.661" tilt="-2.184" popoutscaling="100" height="761">
         <source url="media/Asset 6 - Right.png"/>
       </image>
-      <webelement rotz="3.765" tilt="-27.457" fov="13.708" handcursor="0" permeable="0" rotx="3.184" width="1280" popoutscaling="100" hidepinned="0" height="720" stretch="0.713" clickmode="4" popbackmode="0" pan="21.549" roty="13.828" id="Element02" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924d5d6d80200da04912d4d&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;"/>
-      <webelement rotz="-0.539" tilt="1.211" fov="42.065" handcursor="0" permeable="0" rotx="1.074" width="1280" popoutscaling="100" hidepinned="0" height="720" stretch="1.075" clickmode="4" popbackmode="0" pan="-48.553" roty="29.023" id="Element03" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924d5d8a327beb518c85900&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;"/>
+      <webelement pan="18.080" id="Element02" width="1280" roty="3.530" popoutscaling="100" handcursor="1" popbackmode="0" stretch="1.062" rotz="-1.280" hidepinned="0" rotx="13.870" clickmode="4" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924d5d6d80200da04912d4d&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="12.550" permeable="0" tilt="11.470" height="720"/>
+      <webelement pan="-48.550" id="Element03" width="1280" roty="29.020" popoutscaling="100" handcursor="1" popbackmode="0" stretch="1.075" rotz="-0.540" hidepinned="0" rotx="1.070" clickmode="4" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924d5d8a327beb518c85900&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="42.060" permeable="0" tilt="1.210" height="720"/>
     </media>
-    <transition type="crossdissolve" zoomin="0" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" delay="none" softedge="0" blendcolor="0x000000" enabled="1" zoomout="0" zoomfov="40"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextprojections="0" invertcontrol="1" simulatemass="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0" contextvr="1" lockedkeyboard="0" rubberband="0" zoomcentercursor="1" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" hideabout="1" sensitivity="8" lockedwheel="0"/>
+    <transition softedge="0" zoomafterinfov="140" type="crossdissolve" zoomfov="40" enabled="1" blendcolor="0x000000" zoomoutpause="1" zoomin="0" delay="none" zoomout="0" zoomspeed="2" zoomafteroutfov="40" blendtime="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" rubberband="0" sensitivity="8" contextvr="1" lockedkeyboard="0" simulatemass="1" invertwheel="0" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedwheel="0" zoomcentercursor="1" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
   </panorama>
-  <panorama hideabout="1" id="node6">
-    <input levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" leveltilesize="1024" levelingpitch="0" width="960" overlap="1" levelbias="0.400" height="960">
-      <level height="960" preload="1" predecode="1" width="960"/>
+  <panorama id="node6" hideabout="1">
+    <input levelingroll="0" leveltilesize="1024" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" width="960" levelbias="0.400" height="960" overlap="1">
+      <level predecode="1" width="960" height="960" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start projection="4" tilt="-5.41" fov="108.43" pan="7.84"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min tilt="-60.4952" pan="-180" fovpixel="2"/>
-      <max tilt="60.4952" fov="140" fovfisheye="360" pan="180" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start pan="7.84" projection="4" fov="108.43" tilt="-5.41"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="-180" fovpixel="2" tilt="-60.4952"/>
+      <max fovstereographic="330" pan="180" fovfisheye="360" fov="140" tilt="60.4952"/>
     </view>
-    <userdata author="" datetime="" copyright="" heading="0" nodeid="node6" info="" title="Gallery 3" longitude="" tags="Rooms" customnodeid="" comment="" latitude="" altitude="-3048.00" source="" description=""/>
-    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
-      <label bordercolor="0x000000" backgroundalpha="1" textalpha="1" backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" background="1" border="1" enabled="1" height="20" borderalpha="1" wordwrap="1"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <polyhotspot description="" target="" url="{node5}" title="" id="Poly01">
+    <userdata heading="0" nodeid="node6" description="" tags="Rooms" info="" copyright="" author="" latitude="" longitude="" customnodeid="" title="Gallery 3" altitude="-3048.00" source="" datetime="" comment=""/>
+    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
+      <label background="1" borderalpha="1" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" border="1" width="180" textcolor="0x000000" enabled="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20"/>
+      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <polyhotspot id="Poly01" url="{node5}" title="" target="" description="">
         <polystring>-305.19/-6.65|-314.85/-6.72|-315.08/-25.9|-305.14/-26.66</polystring>
       </polyhotspot>
-      <polyhotspot description="" target="" url="{node7}" title="" id="Poly02">
+      <polyhotspot id="Poly02" url="{node7}" title="" target="" description="">
         <polystring>-65.04/17.11|-80.22/18.11|-80.13/-18.42|-65.13/-17.27</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <image rotz="-2.249" tilt="-17.420" stretch="1.989" fov="3.362" clickmode="0" rotx="57.885" popbackmode="0" pan="51.069" handcursor="0" roty="0.165" id="Element01" width="762" popoutscaling="100" hidepinned="0" height="761">
+      <image handcursor="0" pan="51.069" id="Element01" stretch="1.989" rotz="-2.249" popbackmode="0" hidepinned="0" rotx="57.885" width="762" clickmode="0" roty="0.165" fov="3.362" tilt="-17.420" popoutscaling="100" height="761">
         <source url="media/Asset 6 - Left.png"/>
       </image>
-      <image rotz="-0.498" tilt="-2.638" stretch="1.383" fov="3.162" clickmode="0" rotx="48.450" popbackmode="0" pan="-72.176" handcursor="0" roty="0.820" id="Element02" width="761" popoutscaling="100" hidepinned="0" height="762">
+      <image handcursor="0" pan="-72.176" id="Element02" stretch="1.383" rotz="-0.498" popbackmode="0" hidepinned="0" rotx="48.450" width="761" clickmode="0" roty="0.820" fov="3.162" tilt="-2.638" popoutscaling="100" height="762">
         <source url="media/Asset 6.png"/>
       </image>
-      <webelement rotz="0.595" tilt="2.381" fov="18.094" handcursor="0" permeable="0" rotx="0.098" width="1280" popoutscaling="100" hidepinned="0" height="720" stretch="1.082" clickmode="4" popbackmode="0" pan="4.876" roty="-16.329" id="Element03" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924c58904832a764308bca6&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;"/>
-      <webelement rotz="-0.572" tilt="2.194" fov="17.641" handcursor="0" permeable="0" rotx="4.297" width="1280" popoutscaling="100" hidepinned="0" height="720" stretch="1.096" clickmode="4" popbackmode="0" pan="-20.683" roty="13.894" id="Element04" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924c58742c5e466f8e9fd17&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;"/>
-      <webelement rotz="-6.738" tilt="-48.468" fov="17.281" handcursor="0" permeable="0" rotx="21.891" width="1280" popoutscaling="100" hidepinned="0" height="720" stretch="1.017" clickmode="4" popbackmode="0" pan="-14.835" roty="-13.093" id="Element05" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924c584d80200da04806ed5&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;"/>
+      <webelement pan="4.880" id="Element03" width="1280" roty="-16.330" popoutscaling="100" handcursor="1" popbackmode="0" stretch="1.083" rotz="0.600" hidepinned="0" rotx="0.100" clickmode="4" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924c58904832a764308bca6&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="18.090" permeable="0" tilt="2.380" height="720"/>
+      <webelement pan="-20.680" id="Element04" width="1280" roty="13.890" popoutscaling="100" handcursor="1" popbackmode="0" stretch="1.097" rotz="-0.570" hidepinned="0" rotx="4.300" clickmode="4" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924c58742c5e466f8e9fd17&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="17.640" permeable="0" tilt="2.190" height="720"/>
+      <webelement pan="-7.700" id="Element05" width="1280" roty="-1.959" popoutscaling="100" handcursor="0" popbackmode="0" stretch="1.236" rotz="-0.394" hidepinned="0" rotx="25.064" clickmode="4" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924c584d80200da04806ed5&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="6.898" permeable="0" tilt="-21.072" height="720"/>
     </media>
-    <transition type="crossdissolve" zoomin="0" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" delay="none" softedge="0" blendcolor="0x000000" enabled="1" zoomout="0" zoomfov="40"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextprojections="0" invertcontrol="1" simulatemass="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0" contextvr="1" lockedkeyboard="0" rubberband="0" zoomcentercursor="1" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" hideabout="1" sensitivity="8" lockedwheel="0"/>
+    <transition softedge="0" zoomafterinfov="140" type="crossdissolve" zoomfov="40" enabled="1" blendcolor="0x000000" zoomoutpause="1" zoomin="0" delay="none" zoomout="0" zoomspeed="2" zoomafteroutfov="40" blendtime="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" rubberband="0" sensitivity="8" contextvr="1" lockedkeyboard="0" simulatemass="1" invertwheel="0" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedwheel="0" zoomcentercursor="1" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
   </panorama>
-  <panorama hideabout="1" id="node7">
-    <input levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" leveltilesize="1024" levelingpitch="0" width="960" overlap="1" levelbias="0.400" height="960">
-      <level height="960" preload="1" predecode="1" width="960"/>
+  <panorama id="node7" hideabout="1">
+    <input levelingroll="0" leveltilesize="1024" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" width="960" levelbias="0.400" height="960" overlap="1">
+      <level predecode="1" width="960" height="960" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start projection="4" tilt="-1.51" fov="108.43" pan="132.2"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min tilt="-60.4952" pan="-180" fovpixel="2"/>
-      <max tilt="60.4952" fov="140" fovfisheye="360" pan="180" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start pan="132.2" projection="4" fov="108.43" tilt="-1.51"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="-180" fovpixel="2" tilt="-60.4952"/>
+      <max fovstereographic="330" pan="180" fovfisheye="360" fov="140" tilt="60.4952"/>
     </view>
-    <userdata author="" datetime="" copyright="" heading="0" nodeid="node7" info="" title="Gallery 4" longitude="" tags="Rooms" customnodeid="" comment="" latitude="" altitude="-3048.00" source="" description=""/>
-    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
-      <label bordercolor="0x000000" backgroundalpha="1" textalpha="1" backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" background="1" border="1" enabled="1" height="20" borderalpha="1" wordwrap="1"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <polyhotspot description="" target="" url="{node6}" title="" id="Poly01">
+    <userdata heading="0" nodeid="node7" description="" tags="Rooms" info="" copyright="" author="" latitude="" longitude="" customnodeid="" title="Gallery 4" altitude="-3048.00" source="" datetime="" comment=""/>
+    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
+      <label background="1" borderalpha="1" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" border="1" width="180" textcolor="0x000000" enabled="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20"/>
+      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <polyhotspot id="Poly01" url="{node6}" title="" target="" description="">
         <polystring>-130.63/19.87|-149.79/19.28|-149.95/-21.68|-130.59/-22.4</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <image rotz="0.926" tilt="-3.514" stretch="1.480" fov="4.194" clickmode="0" rotx="51.856" popbackmode="0" pan="-140.189" handcursor="0" roty="-3.369" id="Element02" width="761" popoutscaling="100" hidepinned="0" height="762">
+      <image handcursor="0" pan="-140.189" id="Element02" stretch="1.480" rotz="0.926" popbackmode="0" hidepinned="0" rotx="51.856" width="761" clickmode="0" roty="-3.369" fov="4.194" tilt="-3.514" popoutscaling="100" height="762">
         <source url="media/Asset 6.png"/>
       </image>
-      <webelement rotz="-0.084" tilt="5.037" fov="19.533" handcursor="0" permeable="0" rotx="7.314" width="1280" popoutscaling="100" hidepinned="0" height="720" stretch="1.090" clickmode="4" popbackmode="0" pan="0.830" roty="2.135" id="Element01" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924b98809fea1b86058328e&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;"/>
-      <webelement rotz="11.902" tilt="-25.238" fov="12.554" handcursor="1" permeable="0" rotx="-26.007" width="1280" popoutscaling="100" hidepinned="0" height="720" stretch="0.507" clickmode="4" popbackmode="0" pan="-34.849" roty="21.662" id="Element03" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924ba7b09fea1b860596152&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;"/>
-      <webelement rotz="-10.476" tilt="-24.377" fov="11.071" handcursor="1" permeable="0" rotx="-36.728" width="1280" popoutscaling="100" hidepinned="0" height="720" stretch="0.614" clickmode="4" popbackmode="0" pan="40.035" roty="-16.494" id="Element04" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924ba7fc4c846b634fe2763&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;"/>
+      <webelement pan="0.830" id="Element01" width="1280" roty="2.135" popoutscaling="100" handcursor="0" popbackmode="0" stretch="1.090" rotz="-0.084" hidepinned="0" rotx="7.314" clickmode="4" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924b98809fea1b86058328e&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="19.533" permeable="0" tilt="5.037" height="720"/>
+      <webelement pan="-28.827" id="Element03" width="1280" roty="23.923" popoutscaling="100" handcursor="1" popbackmode="0" stretch="1.471" rotz="14.575" hidepinned="0" rotx="24.740" clickmode="4" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924ba7b09fea1b860596152&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="6.875" permeable="0" tilt="-27.940" height="720"/>
+      <webelement pan="35.700" id="Element04" width="1280" roty="-10.043" popoutscaling="100" handcursor="1" popbackmode="0" stretch="1.741" rotz="-9.511" hidepinned="0" rotx="38.006" clickmode="4" code="&lt;iframe frameborder=&quot;0&quot; width=&quot;1280&quot; height=&quot;720&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; src=&quot;https://view.genially.com/6924ba7fc4c846b634fe2763&quot; type=&quot;text/html&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;yes&quot; allownetworking=&quot;all&quot;>&lt;/iframe>&#xa;" fov="6.313" permeable="0" tilt="-26.285" height="720"/>
     </media>
-    <transition type="crossdissolve" zoomin="0" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" delay="none" softedge="0" blendcolor="0x000000" enabled="1" zoomout="0" zoomfov="40"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextprojections="0" invertcontrol="1" simulatemass="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0" contextvr="1" lockedkeyboard="0" rubberband="0" zoomcentercursor="1" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" hideabout="1" sensitivity="8" lockedwheel="0"/>
+    <transition softedge="0" zoomafterinfov="140" type="crossdissolve" zoomfov="40" enabled="1" blendcolor="0x000000" zoomoutpause="1" zoomin="0" delay="none" zoomout="0" zoomspeed="2" zoomafteroutfov="40" blendtime="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" rubberband="0" sensitivity="8" contextvr="1" lockedkeyboard="0" simulatemass="1" invertwheel="0" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedwheel="0" zoomcentercursor="1" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
   </panorama>
   <masternode>
-    <userdata author="" comment="" copyright="" title="" tags="" description=""/>
+    <userdata tags="" copyright="" author="" title="" description="" comment=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
